@@ -21,6 +21,7 @@
   </src-title>>
 
   <use-module|(contrib physics physics-drd)>
+  <use-module|(contrib physics physics-func)>
 
   <assign|bra|<macro|x|<around*|\<langle\>|<arg|x>|\|>>>
 
@@ -29,6 +30,8 @@
   <assign|ket|<macro|x|<around*|\||<arg|x>|\<rangle\>>>>
 
   <assign|ket*|<macro|x|\|<arg|x>\<rangle\>>>
+
+  <assign|dv|<xmacro|args|<extern|physics-dv|<quote-arg|args>>>>
 </body>
 
 <initial|<\collection>

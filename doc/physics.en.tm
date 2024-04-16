@@ -3,6 +3,10 @@
 <style|<tuple|tmdoc|no-page-numbers|british|physics>>
 
 <\body>
+  <\hide-preamble>
+    \;
+  </hide-preamble>
+
   <tmdoc-title|Physics package>
 
   <paragraph|How to import it>
@@ -36,6 +40,24 @@
     <\equation*>
       <bra*|<frac|\<phi\>|2>>
     </equation*>
+
+    <item*|<markup|dv{x}>>
+
+    <\equation*>
+      <dv|x>
+    </equation*>
+
+    <item*|<markup|dv{f}{x}>>
+
+    <\equation*>
+      <dv|f|x>
+    </equation*>
+
+    <item*|<markup|dv[n]{f}{x}>>
+
+    <\equation*>
+      <dv|n|f|x>
+    </equation*>
   </description>
 
   <tmdoc-copyright|2024|Darcy Shen>
@@ -51,5 +73,6 @@
 <\initial>
   <\collection>
     <associate|page-screen-margin|false>
+    <associate|src-style|angular>
   </collection>
 </initial>
