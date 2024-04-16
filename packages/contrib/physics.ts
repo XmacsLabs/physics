@@ -20,6 +20,8 @@
     </src-license>
   </src-title>>
 
+  <use-module|(contrib physics physics-drd)>
+
   <assign|bra|<macro|x|<around*|\<langle\>|<arg|x>|\|>>>
 
   <assign|bra*|<macro|x|\<langle\><arg|x>\|>>
