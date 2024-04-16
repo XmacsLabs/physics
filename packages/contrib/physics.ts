@@ -4,7 +4,7 @@
 
 <\body>
   <active*|<\src-title>
-    <src-package|physics|1.0>
+    <src-package|physics|1.0.0>
 
     <\src-purpose>
       This package contains macros for physics
